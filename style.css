@@ -7,6 +7,14 @@ h3 {
     color: #204051;
 }
 
+button {
+    border-radius: 20px;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    border: 0;
+    padding: 15px 10px;
+    text-align: center;
+}
+
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -14,29 +22,25 @@ h3 {
 
 .container {
     display: grid;
-    border: 1px solid black;
     font-family: 'Roboto',
         sans-serif;
 }
 
 .header {
-    background-color: #EEA200;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
     height: 100px;
 }
 
 .content {
-    border: 1px solid green;
     display: flex;
 }
 
 .post {
     width: 70%;
-    border: 1px solid yellowgreen;
     justify-content: flex-start;
 }
 
 .sidebar {
-    border: 1px solid pink;
     width: 30%;
     justify-content: flex-end;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
@@ -44,8 +48,9 @@ h3 {
 }
 
 .footer {
-    border: 1px solid purple;
-    height: 150px;
+    height: 20px;
+    text-align: center;
+
 }
 
 .nav-bar {
@@ -54,12 +59,18 @@ h3 {
 }
 
 .nav-link,
-.sidebar-link {
+.sidebar-link,
+.link-social-media {
     color: black;
     font-size: 16px;
     text-decoration: none;
     font-family: 'Roboto',
         sans-serif;
+}
+
+.link-social-media {
+    color: white;
+    font-weight: bold;
 }
 
 .nav-link {
@@ -94,12 +105,13 @@ h3 {
 }
 
 .bio {
-     font-size: 10px;
-     color: #080000;
-     text-align: center
+    font-size: 10px;
+    color: #080000;
+    text-align: center
 }
 
-.author-footer, .date {
+.author-footer,
+.date {
     text-align: right;
     margin-right: 50px;
     font-size: 10px;
@@ -120,4 +132,14 @@ h3 {
 .image-10-tips {
     display: block;
     margin: 0 auto;
+}
+
+.social-media {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.share {
+    font-size: 12px;
+    font-weight: 800;
 }
