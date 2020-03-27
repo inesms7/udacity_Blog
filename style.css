@@ -22,7 +22,7 @@ h3 {
         width: 100%;
     }
 
-    button {
+    .social-media-button {
         display: flex;
         flex-direction: column;
         margin-bottom: 15px;
@@ -36,7 +36,7 @@ h3 {
         font-size: 12px;
     }
 
-    button {
+    .social-media-button {
         padding: 5px 5px 5px 5px;
     }
 
@@ -53,7 +53,7 @@ h3 {
 
 }
 
-button {
+.social-media-button {
     border-radius: 20px;
     background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
     border: 0;
@@ -228,4 +228,16 @@ button {
 .image-gallery {
     height: 150px;
     width: 250px;
+}
+
+.button-article {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #009efd;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
 }
