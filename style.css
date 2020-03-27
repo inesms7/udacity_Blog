@@ -195,3 +195,35 @@ button {
     font-size: 12px;
     font-weight: 800;
 }
+
+.hero {
+    height: 500px;
+    background-image:url("src/technology.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero-title {
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+.latest-articles-title {
+    font-size: 20px;
+
+}
+
+
+.cards-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    border: solid 3px red;
+    padding: 20px;
+
+}
