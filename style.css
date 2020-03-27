@@ -198,7 +198,7 @@ button {
 
 .hero {
     height: 500px;
-    background-image:url("src/technology.jpg");
+    background-image: url("src/technology.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -211,19 +211,21 @@ button {
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
 
-.latest-articles-title {
-    font-size: 20px;
-
-}
-
-
-.cards-list {
+.cards-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
 
 .card {
-    border: solid 3px red;
-    padding: 20px;
+    padding: 0 10px 0 10px;
+    height: 150px;
+    width: 250px;
+    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
 
+.image-gallery {
+    height: 150px;
+    width: 250px;
 }
